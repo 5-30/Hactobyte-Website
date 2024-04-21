@@ -1,0 +1,7 @@
+body{
+    background-color: #EEEEEE;
+}
+
+.navbar-nav .active{
+    border-bottom: solid beige 0.1rem;
+}
