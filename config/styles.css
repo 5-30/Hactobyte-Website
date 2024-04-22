@@ -5,3 +5,19 @@ body{
 .navbar-nav .active{
     border-bottom: solid beige 0.1rem;
 }
+
+.carousel-caption{
+    background-color: rgba(200, 200, 200, 0.85);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: rgb(100, 100, 100);
+    padding: 15%;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    #carouselExampleCaptions {
+        max-width: 65%;
+    }
+}
