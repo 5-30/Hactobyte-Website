@@ -16,6 +16,13 @@ body{
     border-radius: 50%;
 }
 
+.style1{
+    clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+
 @media (min-width: 768px) {
     #carouselExampleCaptions {
         max-width: 65%;
