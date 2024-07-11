@@ -68,7 +68,7 @@ body{
     #carouselExampleCaptions {
         max-width: 65%;
     }
-    .style1 img, .style2 img{
+    .style1 img, .style2 img, .style3 img{
         display: inline;
     }
 }
