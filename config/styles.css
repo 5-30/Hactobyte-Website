@@ -50,10 +50,14 @@ body{
     clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
 }
 
-.style1 img, .style2 img, .style3 img{
+.style1 video, .style2 video, .style3 video{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    display: none;
 }
+
+
 
 #discordInviteBox{
     display: inline-block;
@@ -62,6 +66,8 @@ body{
 .style1 img, .style2 img, .style3 img{
     display: none;
     object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -69,6 +75,9 @@ body{
         max-width: 65%;
     }
     .style1 img, .style2 img, .style3 img{
+        display: inline;
+    }
+    .style1 video, .style2 video, .style3 video{
         display: inline;
     }
 }
